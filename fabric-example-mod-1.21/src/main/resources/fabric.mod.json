@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "waitcommand",
+	"version": "1.0.0",
+	"name": "Wait Command Mod",
+	"description": "Adds a /wait command to delay other commands.",
+	"authors": ["YourName"],
+	"contact": {
+	  "homepage": "https://yourwebsite.com",
+	  "sources": "https://github.com/yourrepo"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+	  "main": [
+		"com.example.WaitCommandMod"
+	  ]
+	},
+	"depends": {
+	  "fabricloader": ">=0.14.22",
+	  "minecraft": "1.21.1",
+	  "fabric-api": "*"
+	}
+  }
+  
